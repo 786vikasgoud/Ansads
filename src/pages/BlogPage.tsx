@@ -121,9 +121,9 @@ const BlogPage: React.FC = () => {
       <section className="bg-gradient-to-r from-dark-900 to-primary-900 text-white pt-24 pb-16 md:pt-32 md:pb-24">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Marketing Insights</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Get the news infomation </h1>
             <p className="text-lg text-gray-200 mb-8">
-              Explore our latest articles, guides, and industry insights to stay ahead in the world of advertising and marketing.
+              Stay updated with the latest in Ad Manager, AdSense, and MCM, enhanced privacy tools, and faster payouts. MCM now features stricter partner requirements and improved performance tracking for better revenue management.
             </p>
             <div className="relative max-w-xl mx-auto">
               <input

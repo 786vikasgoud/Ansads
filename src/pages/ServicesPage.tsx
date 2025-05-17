@@ -17,66 +17,66 @@ const ServicesPage: React.FC = () => {
   const mainServices = [
     {
       id: 'digital-marketing',
-      title: 'Digital Marketing',
-      description: 'Our digital marketing services are designed to maximize your online presence and drive measurable results. We create comprehensive strategies that align with your business goals and target audience.',
-      icon: <Globe size={32} />,
+      title: 'Skyrocket Your Clickthrough Rates',
+      description: 'Drive more engagement and revenue by using intelligent ad placements that are proven to boost CTR across every device and user segment.',
+      icon: <Globe size={24} />,
       benefits: [
-        'Customized marketing strategies aligned with your business goals',
-        'Data-driven campaigns that deliver measurable results',
-        'Continuous optimization based on performance analytics',
-        'Integrated approach across multiple digital channels'
+        'Boost user engagement with compelling ad creatives',
+        'Increase ROI by driving more qualified clicks',
+        'Target the right audience with precision',
+        'Use persuasive, conversion-driven copy'
       ],
       image: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
       id: 'social-media',
-      title: 'Social Media Advertising',
-      description: 'Our social media advertising services help you connect with your audience where they spend their time. We create engaging campaigns that increase brand awareness, drive engagement, and generate leads.',
-      icon: <Share2 size={32} />,
+      title: 'Boost eCPMs & Ad Revenue',
+      description: 'Increase eCPMs and maximize ad revenue with our powerful, data-driven monetization tools — all from one platform.',
+      icon: <Share2 size={24} />,
       benefits: [
-        'Platform-specific strategies for optimal performance',
-        'Targeted audience segmentation to reach ideal customers',
-        'Engaging content that drives interaction and shares',
-        'Performance tracking and ROI measurement'
+       'Maximize earnings with smart ad placement',
+       'Optimize inventory to increase fill rates',
+       'Use high-performing ad formats',
+       'Leverage header bidding for better bids'
       ],
       image: 'https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
       id: 'seo',
-      title: 'SEO Optimization',
-      description: 'Improve your search engine visibility and drive organic traffic to your website with our comprehensive SEO services. We implement proven strategies to help your business rank higher in search results.',
-      icon: <Search size={32} />,
+      title: 'Ad Viewability Enhance',
+      description: 'Enhance your ad viewability with our Professionals highly tested placements that keep ads in sight and revenue climbing.',
+      icon: <Search size={24} />,
       benefits: [
-        'Technical SEO audits and implementation',
-        'Content optimization for target keywords',
-        'Local SEO strategies for businesses with physical locations',
-        'Link building and off-page optimization'
+       'Improve ad placement for better visibility',
+       'Increase average view time with lazy loading',
+       'Optimize layout to prevent banner blindness',
+       'Reduce CLS (Cumulative Layout Shift)'
       ],
-      image: 'https://images.pexels.com/photos/907607/pexels-photo-907607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      image: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
       id: 'content',
-      title: 'Content Creation',
-      description: 'Our content creation services help you tell your brand story and connect with your audience. We create engaging, valuable content that builds authority and drives conversions.',
-      icon: <PenTool size={32} />,
+      title: 'Increase Bid Competition to Boost Ad Revenue',
+      description: 'Attract more advertisers and raise CPMs with smart bid competition strategies that maximize every impression’s value.',
+      icon: <PenTool size={24} />,
       benefits: [
-        'Strategic content planning aligned with business goals',
-        'SEO-optimized content that ranks in search results',
-        'Engaging storytelling that resonates with your audience',
-        'Multi-format content for diverse platforms and channels'
+        'Attract more advertisers with competitive auction dynamics',
+        'Unlock higher eCPMs through real-time bidding',
+        'Expand demand sources with multiple ad exchanges',
+        'Integrate header bidding to increase bid diversity'
       ],
       image: 'https://images.pexels.com/photos/6476783/pexels-photo-6476783.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
       id: 'ppc',
-      title: 'PPC Campaigns',
-      description: 'Our PPC campaign services help you reach your target audience quickly and efficiently. We create and manage high-performing campaigns that drive traffic, leads, and sales.',
-      icon: <LineChart size={32} />,
+      title: 'Ad Integration with Ultra-Low Latency',
+      description: 'Our JS-based integration ensures faster loading, reduced latency, and optimized performance through modular code and CDN delivery.',
+      icon: <LineChart size={24} />,
       benefits: [
-        'Strategic keyword research and selection',
-        'Compelling ad copy that drives clicks',
-        'Continuous campaign optimization for maximum ROI',
-        'Detailed performance reporting and analysis'
+        'Deliver ads instantly with minimal load time',
+        'Enhance user experience by reducing wait times',
+        'Prevent revenue loss from ad load failures',
+        'Improve viewability with seamless rendering'
       ],
       image: 'https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
@@ -105,9 +105,9 @@ const ServicesPage: React.FC = () => {
             <p className="text-lg text-gray-200 mb-8">
               Comprehensive advertising solutions tailored to your business goals and target audience. We deliver results-driven campaigns that help your business grow.
             </p>
-            <Button size="lg">
+            {/* <Button size="lg">
               Schedule a Consultation
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>
@@ -218,7 +218,7 @@ const ServicesPage: React.FC = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="container mx-auto px-4 md:px-6">
           <AnimatedSection animation="fadeIn" className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
@@ -259,7 +259,7 @@ const ServicesPage: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-primary-900 to-primary-800 text-white">
@@ -270,9 +270,9 @@ const ServicesPage: React.FC = () => {
               <p className="text-lg text-gray-200 mb-8 max-w-2xl mx-auto">
                 Schedule a consultation with our team to discuss how we can help you achieve your business goals through strategic advertising.
               </p>
-              <Button size="lg" className="bg-white text-primary-900 hover:bg-gray-100">
+              {/* <Button size="lg" className="bg-white text-primary-900 hover:bg-gray-100">
                 Get Started Today
-              </Button>
+              </Button> */}
             </AnimatedSection>
           </div>
         </div>

@@ -44,9 +44,9 @@ const Footer: React.FC = () => {
               <li>
                 <Link to="/about" className="text-gray-300 hover:text-white transition-colors">About Us</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/case-studies" className="text-gray-300 hover:text-white transition-colors">Case Studies</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/blog" className="text-gray-300 hover:text-white transition-colors">Blog</Link>
               </li>
@@ -61,19 +61,19 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-white transition-colors">Digital Marketing</Link>
+                <Link to="/services" className="text-gray-300 hover:text-white transition-colors">Skyrocket Your Clickthrough Rates</Link>
               </li>
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-white transition-colors">Social Media Ads</Link>
+                <Link to="/services" className="text-gray-300 hover:text-white transition-colors">Boost eCPMs & Ad Revenue</Link>
               </li>
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-white transition-colors">SEO Optimization</Link>
+                <Link to="/services" className="text-gray-300 hover:text-white transition-colors">Ad Viewability Enhance</Link>
               </li>
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-white transition-colors">Content Creation</Link>
+                <Link to="/services" className="text-gray-300 hover:text-white transition-colors">Increase Bid Competition to Boost Ad revenue</Link>
               </li>
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-white transition-colors">PPC Campaigns</Link>
+                <Link to="/services" className="text-gray-300 hover:text-white transition-colors">Ad Integration with Ultra-Low latency</Link>
               </li>
               <li>
                 <Link to="/services" className="text-gray-300 hover:text-white transition-colors">Brand Strategy</Link>

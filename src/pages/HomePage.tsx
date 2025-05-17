@@ -21,32 +21,32 @@ import CaseStudyCard from '../components/CaseStudyCard';
 const HomePage: React.FC = () => {
   const services = [
     {
-      title: 'Digital Marketing',
-      description: 'Comprehensive digital marketing strategies to increase your online presence and drive conversions.',
+      title: 'Skyrocket Your Clickthrough Rates',
+      description: 'Drive more engagement and revenue by using intelligent ad placements that are proven to boost CTR across every device and user segment.',
       icon: <Globe size={24} />,
       link: '/services#digital-marketing',
     },
     {
-      title: 'Social Media Advertising',
-      description: 'Targeted social media campaigns that reach your ideal customers and build brand awareness.',
+      title: 'Boost eCPMs & Ad Revenue',
+      description: 'Increase eCPMs and maximize ad revenue with our powerful, data-driven monetization tools — all from one platform.',
       icon: <Share2 size={24} />,
       link: '/services#social-media',
     },
     {
-      title: 'SEO Optimization',
-      description: 'Improve your search engine rankings and drive organic traffic to your website.',
+      title: 'Ad Viewability Enhance',
+      description: 'Enhance your ad viewability with our Professionals highly tested placements that keep ads in sight and revenue climbing.',
       icon: <Search size={24} />,
       link: '/services#seo',
     },
     {
-      title: 'Content Creation',
-      description: 'Engaging content that resonates with your audience and strengthens your brand identity.',
+      title: 'Increase Bid Competition to Boost Ad Revenue',
+      description: 'Attract more advertisers and raise CPMs with smart bid competition strategies that maximize every impression’s value.',
       icon: <PenTool size={24} />,
       link: '/services#content',
     },
     {
-      title: 'PPC Campaigns',
-      description: 'Pay-per-click advertising that delivers immediate results and maximizes your ROI.',
+      title: 'Ad Integration with Ultra-Low Latency',
+      description: 'Our JS-based integration ensures faster loading, reduced latency, and optimized performance through modular code and CDN delivery.',
       icon: <LineChart size={24} />,
       link: '/services#ppc',
     },
@@ -60,28 +60,28 @@ const HomePage: React.FC = () => {
 
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      position: 'Marketing Director',
-      company: 'TechSolutions Inc.',
+      name: 'Willom',
+      position: 'Publisher',
+      company: 'Brazil.',
       testimonial: 'AnsAds transformed our digital marketing strategy. Their team delivered exceptional results that exceeded our expectations, driving a 45% increase in qualified leads within just three months.',
       rating: 5,
-      image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150',
+      // image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150',
     },
     {
-      name: 'Michael Thompson',
-      position: 'CEO',
-      company: 'GrowthPartners',
+      name: 'Charles',
+      position: 'Publisher',
+      company: 'US',
       testimonial: 'Working with AnsAds has been a game-changer for our business. Their strategic approach to advertising helped us reach new markets and significantly improve our conversion rates.',
       rating: 5,
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150',
+      // image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150',
     },
     {
-      name: 'Emily Rodriguez',
-      position: 'Brand Manager',
-      company: 'Innovate Retail',
+      name: 'Robhot',
+      position: 'Publisher',
+      company: 'Hokong',
       testimonial: 'The team at AnsAds not only delivered outstanding advertising campaigns but also provided valuable insights that helped reshape our entire marketing approach.',
       rating: 4,
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150',
+      // image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150',
     },
   ];
 
@@ -110,10 +110,10 @@ const HomePage: React.FC = () => {
   ];
 
   const stats = [
-    { value: '500+', label: 'Projects Completed' },
-    { value: '98%', label: 'Client Satisfaction' },
-    { value: '245%', label: 'Average ROI' },
-    { value: '15+', label: 'Industry Awards' },
+    { value: '250+', label: 'Publishers' },
+    { value: '98%', label: 'Client Satisfaction on our personalised tool' },
+    { value: '65%', label: 'Ad Revenue boost' },
+    { value: '15+', label: 'Connected MCM companies' },
   ];
 
   return (
@@ -133,7 +133,7 @@ const HomePage: React.FC = () => {
                 transition={{ duration: 0.6 }}
                 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"
               >
-                Transforming Digital <span className="text-accent-400">Advertising</span> for Growth
+                Maximize Your <span className="text-accent-400">Ad</span> Revenue
               </motion.h1>
               <motion.p 
                 initial={{ opacity: 0, y: 20 }}
@@ -141,7 +141,7 @@ const HomePage: React.FC = () => {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-lg md:text-xl text-gray-200 mb-8 max-w-xl"
               >
-                We create strategic advertising solutions that drive results. Elevate your brand with data-driven campaigns that convert.
+              We help content creators around the world make more revenue by connecting them with over 50 top ad networks. We use the latest ad technology and give expert support to manage their ads.
               </motion.p>
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
@@ -149,12 +149,14 @@ const HomePage: React.FC = () => {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 className="flex flex-col sm:flex-row gap-4"
               >
+                <Link to="/contact">
                 <Button size="lg">
-                  Get Started
+                  Contact us
                 </Button>
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+                </Link>
+                {/* <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
                   Learn More
-                </Button>
+                </Button> */}
               </motion.div>
             </div>
             <div className="lg:w-1/2">
@@ -182,10 +184,10 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Trusted By Section */}
-      <section className="py-12 bg-gray-50">
+      {/* <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-xl text-center text-dark-600 mb-8">Trusted by innovative companies worldwide</h2>
-          {/* <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
             {['Brand 1', 'Brand 2', 'Brand 3', 'Brand 4', 'Brand 5'].map((brand, index) => (
               <div key={brand} className="grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
                 <div className="h-8 flex items-center justify-center">
@@ -193,17 +195,17 @@ const HomePage: React.FC = () => {
                 </div>
               </div>
             ))}
-          </div> */}
+          </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Services Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 md:px-6">
           <AnimatedSection animation="fadeIn" className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-dark-900">Our Services</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-dark-900">Maximize Ad Revenue from Every Impression with One Unified Platform</h2>
             <p className="text-lg text-dark-600 max-w-3xl mx-auto">
-              Comprehensive advertising solutions tailored to your business goals and target audience
+              Increase your website’s ad revenue effortlessly. Our all-in-one platform helps publishers get the highest possible yield from every single ad impression.
             </p>
           </AnimatedSection>
 
@@ -251,7 +253,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Case Studies Section */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">  
         <div className="container mx-auto px-4 md:px-6">
           <AnimatedSection animation="fadeIn" className="mb-16">
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-8">
@@ -279,7 +281,7 @@ const HomePage: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonials Section */}
       <section className="py-20 bg-white">
@@ -306,19 +308,21 @@ const HomePage: React.FC = () => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <AnimatedSection animation="fadeIn">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Elevate Your Digital Advertising?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Elevate Your Ad Revenue</h2>
               <p className="text-lg text-gray-200 mb-8 max-w-2xl mx-auto">
-                Join hundreds of successful businesses that have transformed their digital presence with our strategic advertising solutions.
+                 Unlock higher eCPMs, better fill rates, and smarter monetization with a platform built to maximize your earnings..
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
+                <Link to="/contact">
                 <Button size="lg" className="bg-white text-primary-900 hover:bg-gray-100">
                   Schedule a Consultation
                 </Button>
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+                </Link>
+                {/* <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
                   <span className="flex items-center">
                     Learn More <ArrowRight size={16} className="ml-2" />
                   </span>
-                </Button>
+                </Button> */}
               </div>
             </AnimatedSection>
           </div>
